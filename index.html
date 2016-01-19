@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="flexslider.css" type="text/css" />
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+
+    <script type="text/javascript">
+    $("document").ready(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails"
+      });
+    });
+    </script>
+
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+    $('.flexslider').flexslider();
+    });
+    </script>
+
+
+    <title>FlexSlider</title>
+
+
+  </head>
+  <body>
+    <!-- <div class="flexslider">
+      <ul class="slides">
+        <li><img src="images/IMG1.jpg" /></li>
+        <li><img src="images/IMG2.jpg" /></li>
+        <li><img src="images/IMG3.jpg" /></li>
+        <li><img src="images/IMG4.jpg" /></li>
+        <li><img src="images/IMG5.jpg" /></li>
+        <li><img src="images/IMG6.jpg" /></li>
+      </ul>
+    </div> -->
+
+    <div class="flexslider">
+    <ul class="slides">
+      <li data-thumb="images/IMG1.jpg">
+        <img src="images/IMG1.jpg">
+      </li>
+      <li data-thumb="images/IMG2.jpg">
+        <img src="images/IMG2.jpg">
+      </li>
+      <li data-thumb="images/IMG3.jpg">
+        <img src="images/IMG3.jpg">
+      </li>
+      <li data-thumb="images/IMG4.jpg">
+        <img src="images/IMG4.jpg">
+      </li>
+    </ul>
+    </div>
+
+  </body>
+</html>
